@@ -35,7 +35,7 @@ const Coming: React.FC = () => {
   const TranslateString = useI18n()
 
   return (
-    <Card style={{display:'none'}}>
+    <Card >
       <div style={{ padding: '24px' }}>
         <CardTitle>
           {TranslateString(414, 'Your Project?')}{' '}
@@ -63,11 +63,11 @@ const Coming: React.FC = () => {
         <DetailPlaceholder>
           <div style={{ flex: 1 }}>
             <span role="img" aria-label="syrup">
-              🥞{' '}
+              {/* 🥞{' '} */}
             </span>
             {TranslateString(384, 'Your Stake')}:
           </div>
-          <Value>??? CAKE</Value>
+          <Value>??? Doge</Value>
         </DetailPlaceholder>
       </div>
       <Footer>
